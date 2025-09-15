@@ -134,7 +134,7 @@ public static class Game
     public static void PowerUpCollected(Powerup powerup)
     {
         Powerups.Remove(powerup);
-        PowerUpTime += 10;
+        PowerUpTime += 4;
     }
 
     private static void TileDestroyed(Tile tile)
