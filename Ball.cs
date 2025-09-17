@@ -36,7 +36,7 @@ public class Ball
     {
         // Get random upward direction
         int xDir = new Random().Next(1, 3) == 1 ? 1 : -1;
-        _direction = new Vector2f(xDir, 1) / MathF.Sqrt(2);
+        _direction = new Vector2f(xDir, -1) / MathF.Sqrt(2);
         
         _launched = true;
     }

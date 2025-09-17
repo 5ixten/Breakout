@@ -1,0 +1,13 @@
+C:\Users\sixte\Assignments\breakout\bin\Release\net9.0\win-x64\publish\breakout.pdb
+C:\Users\sixte\Assignments\breakout\bin\Release\net9.0\win-x64\publish\Assets\ball.png
+C:\Users\sixte\Assignments\breakout\bin\Release\net9.0\win-x64\publish\Assets\future.ttf
+C:\Users\sixte\Assignments\breakout\bin\Release\net9.0\win-x64\publish\Assets\paddle.png
+C:\Users\sixte\Assignments\breakout\bin\Release\net9.0\win-x64\publish\Assets\tileBlue.png
+C:\Users\sixte\Assignments\breakout\bin\Release\net9.0\win-x64\publish\Assets\tileGreen.png
+C:\Users\sixte\Assignments\breakout\bin\Release\net9.0\win-x64\publish\Assets\tilePink.png
+C:\Users\sixte\Assignments\breakout\bin\Release\net9.0\win-x64\publish\csfml-Audio.dll
+C:\Users\sixte\Assignments\breakout\bin\Release\net9.0\win-x64\publish\csfml-Graphics.dll
+C:\Users\sixte\Assignments\breakout\bin\Release\net9.0\win-x64\publish\csfml-System.dll
+C:\Users\sixte\Assignments\breakout\bin\Release\net9.0\win-x64\publish\csfml-Window.dll
+C:\Users\sixte\Assignments\breakout\bin\Release\net9.0\win-x64\publish\openal32.dll
+C:\Users\sixte\Assignments\breakout\bin\Release\net9.0\win-x64\publish\breakout.exe

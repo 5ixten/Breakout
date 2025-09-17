@@ -24,13 +24,13 @@ public static class Gui
     {
         // Score text
         _mainText.DisplayedString = $"Score: {Game.Score}";
-        _mainText.FillColor = Color.Black;
+        _mainText.FillColor = Color.White;
         _mainText.Position = new Vector2f(20, Game.WindowH - 54);
         target.Draw(_mainText);
         
         // Health text
         _mainText.DisplayedString = $"Health: {Game.Health}";
-        _mainText.FillColor = Color.Red;
+        _mainText.FillColor = Color.White;
         _mainText.Position = new Vector2f(
             Game.WindowW - _mainText.GetGlobalBounds().Width - 20,
             Game.WindowH - 54);
@@ -49,7 +49,7 @@ public static class Gui
         if (Game.Health == 0)
         {
             _backgroundText.DisplayedString = $"Game over";
-            _backgroundText.FillColor = Color.Red;
+            _backgroundText.FillColor = Color.White;
             _backgroundText.Position = new Vector2f(
                 Game.WindowW/2 - _backgroundText.GetGlobalBounds().Width/2,
                 Game.WindowH / 2);

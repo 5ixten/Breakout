@@ -28,19 +28,23 @@ public static class Game
 
     public static void Start()
     {
-        _window = new RenderWindow(new VideoMode(WindowW, WindowH), "Breakout");
-        _window.SetFramerateLimit(maxFps);
+        using (var newWindow = new RenderWindow(new VideoMode(WindowW, WindowH), "Breakout"))
+        {
+            _window = newWindow;
+            _window.Closed += (s, e) => _window.Close();
+            _window.SetFramerateLimit(maxFps);
         
-        Gui.InitGui();
-        _clock = new Clock();
+            Gui.InitGui();
+            _clock = new Clock();
         
-        Ball = new Ball();
-        Paddle = new Paddle();
-        Tiles = new List<Tile>();
-        Powerups = new List<Powerup>();
+            Ball = new Ball();
+            Paddle = new Paddle();
+            Tiles = new List<Tile>();
+            Powerups = new List<Powerup>();
         
-        PrepareRound();
-        Iterate();
+            PrepareRound();
+            Iterate();
+        }
     }
 
     public static void BallHitBottom()
@@ -107,7 +111,7 @@ public static class Game
             
             UpdateTiles();
 
-            _window.Clear(new Color(181, 181, 181));
+            _window.Clear(new Color(19, 41, 11));
             
             // Render content
             Ball.Draw(_window);

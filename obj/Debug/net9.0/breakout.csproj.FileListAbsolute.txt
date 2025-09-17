@@ -82,3 +82,4 @@ C:\Users\sixte\Assignments\breakout\bin\Debug\net9.0\Assets\paddle.png
 C:\Users\sixte\Assignments\breakout\bin\Debug\net9.0\Assets\tileBlue.png
 C:\Users\sixte\Assignments\breakout\bin\Debug\net9.0\Assets\tileGreen.png
 C:\Users\sixte\Assignments\breakout\bin\Debug\net9.0\Assets\tilePink.png
+C:\Users\sixte\Assignments\breakout\obj\Debug\net9.0\breakout.sourcelink.json
