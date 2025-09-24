@@ -80,9 +80,9 @@ public class Ball
         _sprite.Position = newPos;
     }
 
-    public bool CheckCollision(List<Sprite> other_sprites)
+    public bool CheckCollision(List<Sprite> otherSprites)
     {
-        foreach (Sprite other_sprite in other_sprites)
+        foreach (Sprite other_sprite in otherSprites)
         {
             bool colliding = CheckCollision(other_sprite);
             if (colliding)
